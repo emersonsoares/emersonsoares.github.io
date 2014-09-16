@@ -9,9 +9,7 @@ google_analytics:
 animated: false
 
 # Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+markdown: redcarpet
 permalink: pretty
 paginate: 3
 highlighter: pygments
