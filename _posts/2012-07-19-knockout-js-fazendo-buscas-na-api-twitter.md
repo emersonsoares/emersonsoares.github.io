@@ -3,7 +3,7 @@ layout:     post
 title:      Fazendo buscas na api do twitter com knockout.js
 date:       2012-07-19 15:01:11
 summary:    Neste post mostro um exemplo simples e um pouco do poder do knockout.js. Utilizando a api do twitter, vamos fazer uma busca por um termo e exibir os resultados em uma view através do knockout.
-categories: ruby
+categories: javascript
 permalink: /knockout-js-fazendo-buscas-na-api-twitter/
 ---
 
