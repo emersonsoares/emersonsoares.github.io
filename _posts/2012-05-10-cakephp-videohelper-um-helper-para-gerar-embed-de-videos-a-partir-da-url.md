@@ -2,7 +2,7 @@
 layout:     post
 title:      CakePHP - VideoHelper um helper para gerar embed de videos a partir da url
 date:       2012-05-10 01:11:51
-summary:    Implementação de urls amigáveis em Ruby on Rails
+summary:    Helper para exibição de videos embedados na página
 categories: cakephp
 permalink: /cakephp-videohelper-um-helper-para-gerar-embed-de-videos-a-partir-da-url/
 ---
