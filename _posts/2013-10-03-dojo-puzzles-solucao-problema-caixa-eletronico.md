@@ -19,7 +19,7 @@ Os requisitos básicos são os seguintes:
 - É possível sacar o valor solicitado com as notas disponíveis;
 - Saldo do cliente infinito;
 - Quantidade de notas infinito;
-- Notas disponíveis de** $ 100,00**;** $ 50,00**; **$ 20,00** e **$ 10,00;**
+- Notas disponíveis de **$ 100,00**; **$ 50,00**; **$ 20,00** e **$ 10,00;**
 
 **Casos de teste:**
 
@@ -164,6 +164,6 @@ namespace CashMachine
 
 Como podemos ver, implementei uma struct que representa o Saque, que retorna o numero de notas correspondente para cada cédula do saque. Essa struct não contém nenhuma regra para o Saque, pois, caso o nosso caixa eletrônico esteja bugado ele pode retornar um saque que não obedece as regras do enunciado. Por isso então deixei que o Caixa Eletrônico fizesse o calculo das melhores opções de notas e retornasse um objeto Saque.
 
-Bem, essa foi minha solução para o problema do Caixa Eletrônico, talvez com uma analise mais detalhada isso poderia ser melhorado.
+Bem, essa foi minha solução para o problema do Caixa Eletrônico, talvez com uma análise mais detalhada isso poderia ser melhorado.
 
 Aceito sugestões e até o próximo problema :)
