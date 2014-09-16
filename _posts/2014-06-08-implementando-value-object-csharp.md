@@ -11,7 +11,7 @@ Bom pessoal neste post vou tentar explicar um pouco sobre Value Objects ou Objet
 
 >Muitos objetos não possuem nenhuma identidade conceitual. Esses objetos descrevem alguma característica de alguma coisa. - Eric Evans
 
-Ainda citando Eric Evans no livro Domain Driven Design, 
+###Ainda citando Eric Evans no livro Domain Driven Design, 
 
 >Quando uma criança está desenhando, ela está preocupada com a cor da caneta que vai escolher, e pode estar preocupada com a espessura da ponta. Mas se houver duas canetas da mesma cor e de mesmo formato, ela provavelmente não vai se importar em qual delas está utilizando. Se uma caneta se perder e for substituída por outra da mesma cor tirada de uma nova embalagem, ela pode recomeçar o seu trabalho sem se preocupar com a troca.
 
