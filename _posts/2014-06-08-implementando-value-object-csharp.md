@@ -28,7 +28,7 @@ O nosso design deve permitir a comparação entre as áreas desses terrenos, e m
 
 Primeiro, vejamos os testes necessários para o nosso objeto de valor **Area**:
 
-```C#
+```cs
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
