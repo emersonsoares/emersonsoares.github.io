@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      Implementando um value object em CSharp
-date:       2014-06-08 11:21:29
-summary:    This is an empty post to illustrate the pagination component with Pixyll.
+date:       2013-09-11 14:04:22
+summary:    Definição e implementação de um objeto de valor(Value Object)
 categories: domain driven design
 permalink: /implementando-value-object-csharp/
 ---
