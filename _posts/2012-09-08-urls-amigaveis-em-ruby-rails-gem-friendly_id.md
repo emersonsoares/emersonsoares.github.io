@@ -30,7 +30,7 @@ gem "friendly_id", "~> 3.1"
 
 Então execute os seguintes comandos:
 
-```shell
+```
 bundle install
 rails g friendly_id
 rake db:migrate
