@@ -1,0 +1,14 @@
+# Site settings
+title: Emerson Soares
+email: on.emersonsoares@gmail.com
+author: Emerson Soares
+description: "Um pouco sobre tudo"
+baseurl: ""
+url: "http://emersonsoares.github.io"
+google_analytics:
+animated: false
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+paginate: 3
