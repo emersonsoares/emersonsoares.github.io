@@ -42,4 +42,6 @@ Feito isso teremos a gem [friendly_id](https://github.com/norman/friendly_id) i
 has_friendly_id :title, :use_slug => true
 ```
 
-E pronto! Agora é só rodar seu projeto e ver mágica. O [friendly_id](https://github.com/norman/friendly_id) tem mais algumas configurações que podem ser encontradas na sua [documentação no github](https://github.com/norman/friendly_id).
+E pronto! Agora é só rodar seu projeto e ver mágica. 
+
+O [friendly_id](https://github.com/norman/friendly_id) tem mais algumas configurações que podem ser encontradas na sua [documentação no github](https://github.com/norman/friendly_id).
