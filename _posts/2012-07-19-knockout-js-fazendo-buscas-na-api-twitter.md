@@ -86,6 +86,6 @@ E na nossa index.html temos a nossa view com os bindings:
 </div>
 ```
 
-Para ver este exemplo funcionando este  é o link: http://knockout-twitter-search-sample.herokuapp.com
+Para ver este exemplo funcionando este  é o link: [http://knockout-twitter-search-sample.herokuapp.com](http://knockout-twitter-search-sample.herokuapp.com)
 
-O código fonte completo está no meu github, https://github.com/emersonsoares
+O código fonte completo está no [meu github](https://github.com/emersonsoares)
