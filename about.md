@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sobre mim
-permalink: /about/
+permalink: /sobre-emerson-soares/
 ---
 
 This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
