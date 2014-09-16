@@ -9,9 +9,11 @@ google_analytics:
 animated: false
 
 # Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
+markdown: redcarpet2
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+#kramdown:
+#  input: GFM
 permalink: pretty
 paginate: 3
 pygments: true
