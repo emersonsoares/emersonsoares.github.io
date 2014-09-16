@@ -13,3 +13,5 @@ markdown: redcarpet
 permalink: pretty
 paginate: 3
 pygments: true
+redcarpet:
+	extensions: [fenced_code_blocks]
