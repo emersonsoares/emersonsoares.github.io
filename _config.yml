@@ -5,7 +5,7 @@ author: Emerson Soares
 description: "Um pouco sobre tudo"
 baseurl: ""
 url: "http://emersonsoares.github.io"
-google_analytics:
+google_analytics: UA-33091724-1
 animated: false
 
 # Build settings
