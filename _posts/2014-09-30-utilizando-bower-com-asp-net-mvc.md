@@ -9,9 +9,9 @@ permalink: /utilizando-bower-com-asp-net-mvc/
 
 Eu sempre notei que a maioria dos desenvolvedores .NET nunca ou quase nunca buscam ferramentas, frameworks ou qualquer outra coisa que não seja o que a Microsoft oferece, que não venha com o Visual Studio... O Victor Cavalcante falou disso em um [grupo sobre ASP .NET MVC](https://www.facebook.com/groups/aspnetmvcbr/permalink/713959755348640/) no Facebook também.
 
-Hoje temos ferramentas maravilhosas fora do mundo .NET que podem ser utilizadas em projetos .NET por exemplo: Bower, Gulp, Yeoman etc. A Microsoft está começando a nos levar para esse lado também, hoje já temos o Visual Studio trabalhando lindamente com o GIT, em breve teremos o ASP .NET rodando em qualquer plataforma [(ASP .NET VNEXT)](http://www.asp.net/vnext) e provavelmente teremos no Visual Studio “14” uma maior integração com essas ferramentas como podemos ver nesse post do Hanselman: [Introducing Gulp, Grunt, Bower, and npm support for Visual Studio](http://www.hanselman.com/blog/introducinggulpgruntbowerandnpmsupportforvisualstudio.aspx).
+Hoje temos ferramentas maravilhosas fora do mundo .NET que podem ser utilizadas em projetos .NET por exemplo: Bower, Gulp, Yeoman etc. A Microsoft está começando a nos levar para esse lado também, hoje já temos o Visual Studio trabalhando lindamente com o GIT, em breve teremos o ASP .NET rodando em qualquer plataforma [(ASP .NET VNEXT)](http://www.asp.net/vnext) e provavelmente teremos no Visual Studio “14” uma maior integração com essas ferramentas como podemos ver nesse post do Hanselman: [Introducing Gulp, Grunt, Bower, and npm support for Visual Studio](http://www.hanselman.com/blog/introducinggulpgruntbowerandnpmsupportforvisualstudio.aspx). Vou falar sobre como podemos utilizar especificamente o Bower para gerenciar bibliotecas client side.
 
-Vou falar sobre como podemos utilizar especificamente o Bower para gerenciar bibliotecas client side.
+Quando decidi utilizar o Bower para gerenciar bibliotecas client side nos meus projetos, tive que sair pesquisando formas de utilizar isso em conjunto com o Visual Studio, encontrei varias opções e vou explicar aqui a forma como estou fazendo.
 
 Primeiramente o [Bower](http://bower.io/) é um gerenciador de bibliotecas de frontend, como o [NuGet](http://www.nuget.org/) é para os packages .NET. 
 
@@ -38,7 +38,7 @@ O próximo passo é configurar o Bower no nosso projeto ASP .NET MVC. O ```.bowe
 }
 ```
 
-Assim estamos dizendo ao Bower para colocar as bibliotecas no diretorio Content/components, você pode configurar isso da forma que preferir.
+Assim estamos dizendo ao Bower para colocar as bibliotecas no diretorio ```Content/components```, você pode configurar isso da forma que preferir.
 
 Falamos do ```.bowerrc``` que é o arquivo que define configurações para o Bower, agora o próximo arquivo utilizado pelo será o ```bower.json``` que é onde definimos configurações para o **projeto**.
 
@@ -81,4 +81,8 @@ Na solution explorer, clique em ```Show All Files``` e vá na pasta ```Content``
 
 <img src="/assets/utilizando-bower-com-asp-net-mvc-1.png" alt="Visual Studio Solution Explorer" style="width:338px;height:366px;">
 
-Veremos dentro a pasta ```components``` e dentro dela as pastas de cada biblioteca adicionada. Normalmente os packages Bower contém arquivos de configuração, arquivos de código fonte da biblioteca e uma pasta ```dist``` que é onde fica a versão de produção da biblioteca. Eu prefiro adicionar a solution do Visual Studio apenas essa pasta de cada biblioteca mas isso vai depender da sua necessidade. 
+Veremos dentro a pasta ```components``` e dentro dela as pastas de cada biblioteca adicionada. Normalmente os packages Bower contém arquivos de configuração, arquivos de código fonte da biblioteca e uma pasta ```dist``` que é onde fica a versão de produção da biblioteca. Eu prefiro adicionar à solution do Visual Studio apenas essa pasta de cada biblioteca mas isso vai depender da sua necessidade. 
+
+Bom por enquanto é assim que funciona para mim. O Giovanni Bassi criou um package no NuGet que instala o Bower e NPM dentro do seu projeto e ele fica disponivel diretamente no Package Manager. É uma opção bacana também, vou deixar o link aqui: [Bower e NPM na linha de comando dentro do Visual Studio instalado via Nuget](http://blog.lambda3.com.br/2013/12/bower-e-npm-na-linha-de-comando-dentro-do-visual-studio-instalado-via-nuget/).
+
+Não importa a forma como você vai utilizar o importante é que comece a utilizar no seu workflow as ferramentas mais apropriadas e não fique somente no que vem na "caixinha" com o Visual Studio.
