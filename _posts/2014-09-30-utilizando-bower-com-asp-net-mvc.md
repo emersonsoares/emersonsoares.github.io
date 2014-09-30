@@ -79,6 +79,6 @@ No arquivo ```bower.json``` é possivel adicionar muitas outras informações so
 Sempre que você instalar um novo package no projeto deverá adicionar ele manualmente no Visual Studio.
 Na solution explorer, clique em ```Show All Files``` e vá na pasta ```Content```
 
-![Visual Studio Solution Explorer](/assets/utilizando-bower-com-asp-net-mvc-1.png)
+![Visual Studio Solution Explorer](/assets/utilizando-bower-com-asp-net-mvc-1.png=338x366)
 
-Veremos dentro a pasta ```components``` e dentro dela as pastas de cada biblioteca adicionada. Normalmente os packages Bower contem arquivos de configuração, arquivos de código fonte da biblioteca e uma pasta ```dist``` que é onde fica a versão de produção da biblioteca. Eu prefiro adicionar a solution do Visual Studio apenas essa pasta de cada biblioteca mas isso vai depender da sua necessidade. 
+Veremos dentro a pasta ```components``` e dentro dela as pastas de cada biblioteca adicionada. Normalmente os packages Bower contém arquivos de configuração, arquivos de código fonte da biblioteca e uma pasta ```dist``` que é onde fica a versão de produção da biblioteca. Eu prefiro adicionar a solution do Visual Studio apenas essa pasta de cada biblioteca mas isso vai depender da sua necessidade. 
