@@ -38,4 +38,44 @@ O próximo passo é configurar o Bower no nosso projeto ASP .NET MVC. O ```.bowe
 }
 ```
 
-Assim estamos dizendo ao Bower para colocar as bibliotecas no diretorio Content/components.
+Assim estamos dizendo ao Bower para colocar as bibliotecas no diretorio Content/components, você pode configurar isso da forma que preferir.
+
+Falamos do ```.bowerrc``` que é o arquivo que define configurações para o Bower, agora o próximo arquivo utilizado pelo será o ```bower.json``` que é onde definimos configurações para o **projeto**.
+
+Você pode criar esse arquivo manualmente e adiciona-lo na raiz do projeto, ou pode rodar o comando
+
+```
+bower init
+```
+
+que cria esse arquivo já com algumas configurações definidas. No arquivo ```bower.json``` existe a seção ```dependencies``` que é onde definimos as bibliotecas que são dependencias do projeto. Vamos adicionar por exemplo o Jquery e o Bootstrap como dependencias em um projeto:
+
+```
+{
+    "name" :  "WebApplication",
+    "dependencies": {
+        "jquery": "~2.1.1",
+        "bootstrap": "~3.2.0"
+    }
+}
+```
+
+Com o ```bower.json``` configurado é só rodar o comando:
+
+```
+bower install
+```
+
+Esse comando vai ler todas as dependencias no arquivo ```bower.json```, fazer o download e instalar todas no diretório ```Content/components```. Outra opção mais simples é instalar as bibliotecas e fazer com que o bower automaticamente adicione a biblioteca instalada como dependencia no arquivo ```bower.json```. Isso pode ser feito através do comando:
+
+```
+bower install <package> -S
+```
+
+Onde ```<package>``` é o nome da biblioteca a ser instalada.
+
+No arquivo ```bower.json``` é possivel adicionar muitas outras informações sobre o projeto, veja ele como um manifest file. Você pode ver mais detalhes na [documentação oficial](http://bower.io/docs/creating-packages/).
+
+Sempre que você instalar um novo package no projeto deverá adicionar ele manualmente no Visual Studio.
+Na solution explorer, clique em ```Show All Files``` e vá na pasta ```Content```
+
