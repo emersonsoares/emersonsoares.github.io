@@ -9,7 +9,9 @@ permalink: /voce-nao-e-um-engenheiro-de-software/
 
 Alguns anos atrás encontrei esse texto no [blog do Chris Aitchison](http://www.chrisaitchison.com/2011/05/03/you-are-not-a-software-engineer/) e acho que ele conseguiu, de forma genial definir o que é a construção de um software com a analogia do jardineiro. E mais, conseguiu demonstrar porque a analogia do engenheiro de software não serve e muitas vezes contribui para o fracasso de um projeto. 
 
-Eu já havia pensado em traduzir esse texto a muito tempo, mas nunca tinha parado para fazer isso, enfim está aqui. Acredito que todos deveriam ler e tentar no mínimo analisar o que ele quer dizer com tudo isso. 
+Eu já havia pensado em traduzir esse texto a muito tempo, mas nunca tinha parado para fazer isso, enfim está aqui(com alguns anos de atraso hehe). Eu quero deixar esse texto no meu blog mais como um repositório de ideias, eu tenho muitas sobre o assunto e provavelmente eu irei adicionando updates com as minhas opiniões no futuro sempre que me pegar pensando sobre.
+
+Acredito que todos deveriam ler e tentar no mínimo analisar o que ele quer dizer com tudo isso com a total liberade para discordar, concordar, opinar etc. 
 
 Segue o texto:
 
