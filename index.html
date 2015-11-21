@@ -7,7 +7,7 @@ layout: default
     {% for post in paginator.posts %}
       <div class="post {% if site.animated %}animated fade-in-down{% endif %}">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-          <h4 class="post-title">{{ post.title }}</h4>
+          <h3 class="post-title">{{ post.title }}</h3>
         </a>
       </div>
     {% endfor %}
